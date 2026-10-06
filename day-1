@@ -1,0 +1,15 @@
+# Number of pencils in each box
+pencils <- c(25, 23, 12, 11, 6, 7, 8, 9, 10)
+mean(pencils)
+median(pencils)
+mode(pencils)
+mode_value
+
+tennis<-c(1,40,41,45,46,56,65,45,34,35,46,56,67,76,65,45)
+mean(tennis)
+boxplot(tennis,
+        names=c("tennis"),
+        main="searching for oultliers",
+        ylab="values",
+        col=c("pink")
+        )
